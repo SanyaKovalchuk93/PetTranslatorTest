@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E843F2BD2D5FEBDB00FCC4AF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */; };
+		E85655272D5EAD2400CB9A97 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85655252D5EAD2400CB9A97 /* ResultViewController.swift */; };
+		E85655282D5EAD2400CB9A97 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85655262D5EAD2400CB9A97 /* ResultViewController.xib */; };
+		E86090A32D5E9A3E00D724DE /* KonkhmerSleokchher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E86090A22D5E9A3E00D724DE /* KonkhmerSleokchher-Regular.ttf */; };
 		E87938AF2D55126E00854F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87938AE2D55126E00854F2C /* AppDelegate.swift */; };
 		E87938B12D55126E00854F2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87938B02D55126E00854F2C /* SceneDelegate.swift */; };
 		E87938B32D55126E00854F2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87938B22D55126E00854F2C /* ViewController.swift */; };
 		E87938B62D55126E00854F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87938B42D55126E00854F2C /* Main.storyboard */; };
 		E87938B82D55127000854F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87938B72D55127000854F2C /* Assets.xcassets */; };
 		E87938BB2D55127000854F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87938B92D55127000854F2C /* LaunchScreen.storyboard */; };
+		E8918A802D5829B800E964D6 /* animation-recording.json in Resources */ = {isa = PBXBuildFile; fileRef = E8918A7F2D5829B800E964D6 /* animation-recording.json */; };
+		E8918A832D5829E100E964D6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E8918A822D5829E100E964D6 /* Lottie */; };
+		E8918AAB2D5BDFF600E964D6 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8918AA92D5BDFF600E964D6 /* SettingsTableViewController.swift */; };
+		E8BA5D722D5C0CC100FCA296 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BA5D712D5C0CC100FCA296 /* SettingsTableViewCell.xib */; };
+		E8BA5D732D5C0CC100FCA296 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BA5D702D5C0CC100FCA296 /* SettingsTableViewCell.swift */; };
+		E8BA5D792D5D537600FCA296 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BA5D782D5D537600FCA296 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E85655252D5EAD2400CB9A97 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E85655262D5EAD2400CB9A97 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		E86090A22D5E9A3E00D724DE /* KonkhmerSleokchher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KonkhmerSleokchher-Regular.ttf"; sourceTree = "<group>"; };
 		E87938AB2D55126E00854F2C /* PetTranslatorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTranslatorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87938AE2D55126E00854F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87938B02D55126E00854F2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,11 @@
 		E87938B72D55127000854F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87938BA2D55127000854F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87938BC2D55127000854F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8918A7F2D5829B800E964D6 /* animation-recording.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "animation-recording.json"; sourceTree = "<group>"; };
+		E8918AA92D5BDFF600E964D6 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		E8BA5D702D5C0CC100FCA296 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		E8BA5D712D5C0CC100FCA296 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		E8BA5D782D5D537600FCA296 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8918A832D5829E100E964D6 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E843F2BE2D5FEC5D00FCC4AF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		E87938A22D55126E00854F2C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +84,32 @@
 		E87938AD2D55126E00854F2C /* PetTranslatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				E843F2BE2D5FEC5D00FCC4AF /* Extension */,
+				E87938C42D552A6400854F2C /* Fonts */,
 				E87938AE2D55126E00854F2C /* AppDelegate.swift */,
+				E8BA5D782D5D537600FCA296 /* CustomTabBarController.swift */,
+				E8918A7F2D5829B800E964D6 /* animation-recording.json */,
 				E87938B02D55126E00854F2C /* SceneDelegate.swift */,
 				E87938B22D55126E00854F2C /* ViewController.swift */,
+				E8BA5D702D5C0CC100FCA296 /* SettingsTableViewCell.swift */,
+				E8BA5D712D5C0CC100FCA296 /* SettingsTableViewCell.xib */,
 				E87938B42D55126E00854F2C /* Main.storyboard */,
+				E85655252D5EAD2400CB9A97 /* ResultViewController.swift */,
+				E85655262D5EAD2400CB9A97 /* ResultViewController.xib */,
+				E8918AA92D5BDFF600E964D6 /* SettingsTableViewController.swift */,
 				E87938B72D55127000854F2C /* Assets.xcassets */,
 				E87938B92D55127000854F2C /* LaunchScreen.storyboard */,
 				E87938BC2D55127000854F2C /* Info.plist */,
 			);
 			path = PetTranslatorTest;
+			sourceTree = "<group>";
+		};
+		E87938C42D552A6400854F2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E86090A22D5E9A3E00D724DE /* KonkhmerSleokchher-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,9 @@
 			dependencies = (
 			);
 			name = PetTranslatorTest;
+			packageProductDependencies = (
+				E8918A822D5829E100E964D6 /* Lottie */,
+			);
 			productName = PetTranslatorTest;
 			productReference = E87938AB2D55126E00854F2C /* PetTranslatorTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,9 @@
 				Base,
 			);
 			mainGroup = E87938A22D55126E00854F2C;
+			packageReferences = (
+				E8918A812D5829E100E964D6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E87938AC2D55126E00854F2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BA5D722D5C0CC100FCA296 /* SettingsTableViewCell.xib in Resources */,
 				E87938BB2D55127000854F2C /* LaunchScreen.storyboard in Resources */,
+				E85655282D5EAD2400CB9A97 /* ResultViewController.xib in Resources */,
+				E8918A802D5829B800E964D6 /* animation-recording.json in Resources */,
+				E86090A32D5E9A3E00D724DE /* KonkhmerSleokchher-Regular.ttf in Resources */,
 				E87938B82D55127000854F2C /* Assets.xcassets in Resources */,
 				E87938B62D55126E00854F2C /* Main.storyboard in Resources */,
 			);
@@ -140,7 +195,12 @@
 			files = (
 				E87938B32D55126E00854F2C /* ViewController.swift in Sources */,
 				E87938AF2D55126E00854F2C /* AppDelegate.swift in Sources */,
+				E85655272D5EAD2400CB9A97 /* ResultViewController.swift in Sources */,
+				E843F2BD2D5FEBDB00FCC4AF /* UIColorExtension.swift in Sources */,
 				E87938B12D55126E00854F2C /* SceneDelegate.swift in Sources */,
+				E8BA5D732D5C0CC100FCA296 /* SettingsTableViewCell.swift in Sources */,
+				E8BA5D792D5D537600FCA296 /* CustomTabBarController.swift in Sources */,
+				E8918AAB2D5BDFF600E964D6 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,11 +355,13 @@
 				DEVELOPMENT_TEAM = VZT97FBBMQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetTranslatorTest/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Для записи вашего голоса";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +385,13 @@
 				DEVELOPMENT_TEAM = VZT97FBBMQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetTranslatorTest/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Для записи вашего голоса";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +427,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8918A812D5829E100E964D6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8918A822D5829E100E964D6 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8918A812D5829E100E964D6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E87938A32D55126E00854F2C /* Project object */;
 }

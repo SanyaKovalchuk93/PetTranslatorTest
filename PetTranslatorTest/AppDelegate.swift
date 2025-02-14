@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  PetTranslatorTest
-//
-//  Created by Alexandr Kovalchuk on 06.02.2025.
-//
-
 import UIKit
 
 @main
@@ -14,6 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UITabBar.appearance().tintColor = UIColor(hex: "292D32")
+        UITabBar.appearance().unselectedItemTintColor = UIColor(hex: "7F8184")
         return true
     }
 
