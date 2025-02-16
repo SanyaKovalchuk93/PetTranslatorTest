@@ -13,6 +13,8 @@
             <connections>
                 <outlet property="closeBtn" destination="Se0-D2-Wic" id="729-R8-e4J"/>
                 <outlet property="petImage" destination="8jj-JB-e9b" id="dQd-Js-wtl"/>
+                <outlet property="repeatBtn" destination="NPn-KH-Q76" id="dQp-DR-j70"/>
+                <outlet property="repeatText" destination="Q1D-DB-EKu" id="XAI-fg-Ks9"/>
                 <outlet property="resultText" destination="HYf-vx-5uD" id="A5P-hH-bYO"/>
                 <outlet property="resultView" destination="HbS-Ab-R1L" id="d6b-kd-RSV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -48,6 +50,9 @@
                         </label>
                     </subviews>
                     <color key="backgroundColor" red="0.84031182530000004" green="0.86038690809999996" blue="0.98825162649999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="142" id="sIU-7l-8aY"/>
+                    </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                             <integer key="value" value="16"/>
@@ -55,11 +60,14 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="8jj-JB-e9b">
-                    <rect key="frame" x="104.66666666666669" y="449" width="184" height="205"/>
+                    <rect key="frame" x="104.66666666666667" y="470" width="183.66666666666663" height="184"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se0-D2-Wic">
                     <rect key="frame" x="20" y="84" width="48" height="48"/>
                     <color key="backgroundColor" white="1" alpha="0.8047158377511161" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="wk0-t6-V6y"/>
+                    </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="close-icon">
                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
@@ -73,24 +81,57 @@
                         <action selector="closeBtnAction:" destination="-1" eventType="touchUpInside" id="e3O-cI-J9y"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPn-KH-Q76">
+                    <rect key="frame" x="50" y="306" width="293" height="54"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rotate-icon" translatesAutoresizingMaskIntoConstraints="NO" id="bgL-kZ-lDw">
+                            <rect key="frame" x="106" y="19" width="16" height="16"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repeat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1D-DB-EKu">
+                            <rect key="frame" x="132" y="17" width="54" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="54" id="kw1-Gk-KJH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.84031182530000004" green="0.86038690809999996" blue="0.98825162649999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="bgL-kZ-lDw" firstAttribute="centerY" secondItem="NPn-KH-Q76" secondAttribute="centerY" id="Iwg-eY-fpn"/>
+                        <constraint firstItem="bgL-kZ-lDw" firstAttribute="leading" secondItem="NPn-KH-Q76" secondAttribute="leading" constant="106" id="dW1-iu-gNQ"/>
+                        <constraint firstItem="Q1D-DB-EKu" firstAttribute="centerY" secondItem="bgL-kZ-lDw" secondAttribute="centerY" id="eqd-T9-ZK1"/>
+                        <constraint firstAttribute="height" constant="54" id="jLw-Fv-NUP"/>
+                        <constraint firstItem="Q1D-DB-EKu" firstAttribute="leading" secondItem="bgL-kZ-lDw" secondAttribute="trailing" constant="10" id="rGg-t1-30y"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemGrayColor"/>
             <constraints>
+                <constraint firstItem="NPn-KH-Q76" firstAttribute="top" secondItem="JKt-4D-5eD" secondAttribute="bottom" constant="169" id="6xa-Hs-Nvg"/>
                 <constraint firstItem="Se0-D2-Wic" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="8bU-HI-fKa"/>
-                <constraint firstItem="HbS-Ab-R1L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="FtQ-qs-nPX"/>
-                <constraint firstAttribute="bottom" secondItem="HbS-Ab-R1L" secondAttribute="bottom" constant="492" id="JPg-o7-6AO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NPn-KH-Q76" secondAttribute="trailing" constant="50" id="A4j-xs-hz3"/>
+                <constraint firstItem="8jj-JB-e9b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="104.66666666666669" id="I9c-JN-afF"/>
                 <constraint firstItem="JKt-4D-5eD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="NAv-e5-V4D"/>
-                <constraint firstItem="HbS-Ab-R1L" firstAttribute="centerX" secondItem="8jj-JB-e9b" secondAttribute="centerX" id="NZN-AW-NLh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8jj-JB-e9b" secondAttribute="bottom" constant="164" id="TDn-EV-e6o"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JKt-4D-5eD" secondAttribute="trailing" constant="20" id="VET-Wt-LJX"/>
+                <constraint firstItem="HbS-Ab-R1L" firstAttribute="top" secondItem="JKt-4D-5eD" secondAttribute="bottom" constant="81" id="Y8h-3j-PyQ"/>
+                <constraint firstItem="8jj-JB-e9b" firstAttribute="top" secondItem="NPn-KH-Q76" secondAttribute="bottom" constant="110" id="bB0-hy-W5L"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HbS-Ab-R1L" secondAttribute="trailing" constant="50" id="bk9-mZ-gAx"/>
+                <constraint firstItem="8jj-JB-e9b" firstAttribute="centerX" secondItem="NPn-KH-Q76" secondAttribute="centerX" id="bls-2S-ddd"/>
                 <constraint firstItem="JKt-4D-5eD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="evH-1a-Ucj"/>
-                <constraint firstItem="8jj-JB-e9b" firstAttribute="top" secondItem="HbS-Ab-R1L" secondAttribute="bottom" constant="89.000000000060425" id="gkp-yL-lkx"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HbS-Ab-R1L" secondAttribute="trailing" constant="50" id="nQT-2X-quL"/>
+                <constraint firstItem="HbS-Ab-R1L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="iPu-cH-aNF"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Se0-D2-Wic" secondAttribute="trailing" constant="325" id="rAc-DJ-oMX"/>
-                <constraint firstItem="HbS-Ab-R1L" firstAttribute="top" secondItem="Se0-D2-Wic" secondAttribute="bottom" constant="86" id="rQk-4x-0W0"/>
                 <constraint firstItem="Se0-D2-Wic" firstAttribute="centerY" secondItem="JKt-4D-5eD" secondAttribute="centerY" id="viE-Br-46L"/>
                 <constraint firstItem="Se0-D2-Wic" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="vig-Lf-VbP"/>
+                <constraint firstItem="NPn-KH-Q76" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="xso-LX-jKj"/>
             </constraints>
             <point key="canvasLocation" x="-5.343511450381679" y="19.718309859154932"/>
         </view>
@@ -99,8 +140,9 @@
         <image name="close-icon" width="28" height="28"/>
         <image name="dog" width="184" height="184"/>
         <image name="polygon-triangle" width="73" height="111"/>
+        <image name="rotate-icon" width="16" height="16"/>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

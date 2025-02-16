@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82B71422D629F4700EE50DE /* cat-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82B71402D629F4600EE50DE /* cat-sound.mp3 */; };
+		E82B71432D629F4700EE50DE /* dog-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82B71412D629F4700EE50DE /* dog-sound.mp3 */; };
 		E843F2BD2D5FEBDB00FCC4AF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */; };
 		E85655272D5EAD2400CB9A97 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85655252D5EAD2400CB9A97 /* ResultViewController.swift */; };
 		E85655282D5EAD2400CB9A97 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85655262D5EAD2400CB9A97 /* ResultViewController.xib */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82B71402D629F4600EE50DE /* cat-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "cat-sound.mp3"; path = "../../Downloads/cat-sound.mp3"; sourceTree = "<group>"; };
+		E82B71412D629F4700EE50DE /* dog-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dog-sound.mp3"; path = "../../Downloads/dog-sound.mp3"; sourceTree = "<group>"; };
 		E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		E85655252D5EAD2400CB9A97 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E85655262D5EAD2400CB9A97 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		E87938A22D55126E00854F2C = {
 			isa = PBXGroup;
 			children = (
+				E82B71402D629F4600EE50DE /* cat-sound.mp3 */,
+				E82B71412D629F4700EE50DE /* dog-sound.mp3 */,
 				E87938AD2D55126E00854F2C /* PetTranslatorTest */,
 				E87938AC2D55126E00854F2C /* Products */,
 			);
@@ -176,6 +182,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82B71422D629F4700EE50DE /* cat-sound.mp3 in Resources */,
+				E82B71432D629F4700EE50DE /* dog-sound.mp3 in Resources */,
 				E8BA5D722D5C0CC100FCA296 /* SettingsTableViewCell.xib in Resources */,
 				E87938BB2D55127000854F2C /* LaunchScreen.storyboard in Resources */,
 				E85655282D5EAD2400CB9A97 /* ResultViewController.xib in Resources */,

@@ -4,13 +4,17 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioRecorderDelegate {
     
+    var selectedHuman: Bool!
+    
     @IBAction func btnSwap(_ sender: Any) {
         if labelHuman.text == "HUMAN" {
             labelHuman.text = "PET"
             labelPet.text = "HUMAN"
+            selectedHuman = false
         } else {
             labelHuman.text = "HUMAN"
             labelPet.text = "PET"
+            selectedHuman = true
         }
     }
     
@@ -80,6 +84,10 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
         labelPet.font = UIFont(name: "KonkhmerSleokchher-Regular", size: 16)
         
         imageMainCatDog.image = UIImage(named: "dog.pdf")
+        
+        if labelHuman.text == "HUMAN" {
+            selectedHuman = true
+        }
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [UIColor(hex: "#F3F5F6").cgColor, UIColor(hex: "#C9FFE0").cgColor]
@@ -194,6 +202,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
             let resultVC = ResultViewController(nibName: "ResultViewController", bundle: nil)
             resultVC.modalPresentationStyle = .fullScreen
             resultVC.receivedImage = self.imageMainCatDog.image
+            resultVC.selecetedTranslator = self.selectedHuman
             resultVC.imageName = self.imageMainCatDog.image == UIImage(named: "cat.pdf") ? "cat" : "dog"
             self.present(resultVC, animated: true, completion: nil)
         }
