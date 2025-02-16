@@ -28,8 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E82B71402D629F4600EE50DE /* cat-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "cat-sound.mp3"; path = "../../Downloads/cat-sound.mp3"; sourceTree = "<group>"; };
-		E82B71412D629F4700EE50DE /* dog-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dog-sound.mp3"; path = "../../Downloads/dog-sound.mp3"; sourceTree = "<group>"; };
+		E82B71402D629F4600EE50DE /* cat-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "cat-sound.mp3"; path = "../../../../Downloads/cat-sound.mp3"; sourceTree = "<group>"; };
+		E82B71412D629F4700EE50DE /* dog-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dog-sound.mp3"; path = "../../../../Downloads/dog-sound.mp3"; sourceTree = "<group>"; };
 		E843F2BC2D5FEBDB00FCC4AF /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		E85655252D5EAD2400CB9A97 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E85655262D5EAD2400CB9A97 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
@@ -61,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82B71452D62B08100EE50DE /* Sound Pet */ = {
+			isa = PBXGroup;
+			children = (
+				E82B71402D629F4600EE50DE /* cat-sound.mp3 */,
+				E82B71412D629F4700EE50DE /* dog-sound.mp3 */,
+			);
+			path = "Sound Pet";
+			sourceTree = "<group>";
+		};
 		E843F2BE2D5FEC5D00FCC4AF /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +81,6 @@
 		E87938A22D55126E00854F2C = {
 			isa = PBXGroup;
 			children = (
-				E82B71402D629F4600EE50DE /* cat-sound.mp3 */,
-				E82B71412D629F4700EE50DE /* dog-sound.mp3 */,
 				E87938AD2D55126E00854F2C /* PetTranslatorTest */,
 				E87938AC2D55126E00854F2C /* Products */,
 			);
@@ -92,6 +99,7 @@
 			children = (
 				E843F2BE2D5FEC5D00FCC4AF /* Extension */,
 				E87938C42D552A6400854F2C /* Fonts */,
+				E82B71452D62B08100EE50DE /* Sound Pet */,
 				E87938AE2D55126E00854F2C /* AppDelegate.swift */,
 				E8BA5D782D5D537600FCA296 /* CustomTabBarController.swift */,
 				E8918A7F2D5829B800E964D6 /* animation-recording.json */,
